@@ -23,14 +23,14 @@ The purpose of this project is to use neural networks to predict the success of 
      Loss: 0.5591133236885071, Accuracy: 0.7289795875549316
     * What steps did you take to try and increase model performance?
       
-     **For my first attempt at optimizationa**, I tried to reduce my neurons significantly by reducing my inputs to the following:
+     **For my first attempt at optimization**, I tried to reduce my neurons significantly by reducing my inputs to the following:
          num_first = 80
          num_second = 10
      I kept the same amount of layers and same activation functions. I yielded the following result: 
      268/268 - 0s - loss: 0.5530 - accuracy: 0.7299 - 395ms/epoch - 1ms/step
      Loss: 0.5529734492301941, Accuracy: 0.729912519454956
      
-     **For my second attempt at optimizationa**,  I added an additional layer and same activation functions. My inputs are defined below:
+     **For my second attempt at optimization**,  I added an additional layer and same activation functions. My inputs are defined below:
         num_first = 80
         num_second = 10
         num_third = 2
@@ -38,7 +38,7 @@ The purpose of this project is to use neural networks to predict the success of 
      268/268 - 0s - loss: 0.5541 - accuracy: 0.7284 - 407ms/epoch - 2ms/step
      Loss: 0.5540666580200195, Accuracy: 0.7283964753150946
      
-     **For my third attempt at optimizationa**, I tried to reduce my neurons further by defining my inputs to the following:
+     **For my third attempt at optimization**, I tried to reduce my neurons further by defining my inputs to the following:
         num_first = 15
         num_second = 10
      I added an additional layer and same activation functions. I yielded the following result: 
