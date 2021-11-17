@@ -22,7 +22,8 @@ The purpose of this project is to use neural networks to predict the success of 
      268/268 - 1s - loss: 0.5591 - accuracy: 0.7290 - 1s/epoch - 4ms/step
      Loss: 0.5591133236885071, Accuracy: 0.7289795875549316
     * What steps did you take to try and increase model performance?
-      **For my first attempt at optimizationa**, I tried to reduce my neurons significantly by reducing my inputs to the following:
+      
+     **For my first attempt at optimizationa**, I tried to reduce my neurons significantly by reducing my inputs to the following:
          num_first = 80
          num_second = 10
      I kept the same amount of layers and same activation functions. I yielded the following result: 
